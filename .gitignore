@@ -1,5 +1,6 @@
-*
-
-!src/*
-!.gitignore
-!pom.xml
+.idea
+.mvn
+target
+JavaFx-Practice.iml
+mvnw
+mvnw.cmd

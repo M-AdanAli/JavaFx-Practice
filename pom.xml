@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.adanali.javafx.javafxpractice/com.adanali.javafx.javafxpractice.HelloApplication
+                                com.adanali.javafx.javafxpractice/com.adanali.javafx.javafxpractice.Demo1_Scenes.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

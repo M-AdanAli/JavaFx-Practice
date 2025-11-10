@@ -1,8 +1,54 @@
 module com.adanali.javafx.javafxpractice {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.graphics;
+    requires javafx.base;
 
 
-    opens com.adanali.javafx.javafxpractice to javafx.fxml;
-    exports com.adanali.javafx.javafxpractice;
+    exports com.adanali.javafx.javafxpractice.Demo2_Scenebuilder;
+    exports com.adanali.javafx.javafxpractice.Demo1_Scenes;
+    opens com.adanali.javafx.javafxpractice.Demo1_Scenes to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo3_EventHandling;
+    opens com.adanali.javafx.javafxpractice.Demo3_EventHandling to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo4_CSSstyling;
+    exports com.adanali.javafx.javafxpractice.Demo5_SwitchingScenes;
+    opens com.adanali.javafx.javafxpractice.Demo5_SwitchingScenes to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo6_CommunicatingControllers;
+    opens com.adanali.javafx.javafxpractice.Demo6_CommunicatingControllers to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo7_Exit;
+    opens com.adanali.javafx.javafxpractice.Demo7_Exit to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo8_ImageView;
+    opens com.adanali.javafx.javafxpractice.Demo8_ImageView to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo9_TextField;
+    opens com.adanali.javafx.javafxpractice.Demo9_TextField to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo10_CheckBox;
+    opens com.adanali.javafx.javafxpractice.Demo10_CheckBox to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo10_RadioButton;
+    opens com.adanali.javafx.javafxpractice.Demo10_RadioButton to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo11_DatePicker;
+    opens com.adanali.javafx.javafxpractice.Demo11_DatePicker to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo12_ColorPicker;
+    opens com.adanali.javafx.javafxpractice.Demo12_ColorPicker to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo13_ChoiceBox;
+    opens com.adanali.javafx.javafxpractice.Demo13_ChoiceBox to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo14_Slider;
+    opens com.adanali.javafx.javafxpractice.Demo14_Slider to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo15_ProgressBar;
+    opens com.adanali.javafx.javafxpractice.Demo15_ProgressBar to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo16_Spinner;
+    opens com.adanali.javafx.javafxpractice.Demo16_Spinner to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo17_ListView;
+    opens com.adanali.javafx.javafxpractice.Demo17_ListView to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo18_TreeView;
+    opens com.adanali.javafx.javafxpractice.Demo18_TreeView to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo19_MenuBar;
+    opens com.adanali.javafx.javafxpractice.Demo19_MenuBar to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo20_FlowPane;
+    opens com.adanali.javafx.javafxpractice.Demo20_FlowPane to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo21_KeyEvent;
+    opens com.adanali.javafx.javafxpractice.Demo21_KeyEvent to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo22_Animations;
+    opens com.adanali.javafx.javafxpractice.Demo22_Animations to javafx.fxml;
+    exports com.adanali.javafx.javafxpractice.Demo23_MediaView;
+    opens com.adanali.javafx.javafxpractice.Demo23_MediaView to javafx.fxml;
 }
