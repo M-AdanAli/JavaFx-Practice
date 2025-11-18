@@ -14,8 +14,20 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/com/adanali/javafx/javafxpractice/Demo9_TextField.fxml"));
+        FXMLLoader loader  = new FXMLLoader(getClass().getResource("/com/adanali/javafx/javafxpractice/Demo21_KeyEvent.fxml"));
+        Parent root = loader.load();
+        Controller controller = loader.getController();
         Scene scene = new Scene(root);
+
+        scene.setOnKeyPressed(keyEvent -> {
+            switch (keyEvent.getCode()){
+                case W,UP -> controller.moveUp();
+                case A,LEFT -> controller.moveLeft();
+                case S,DOWN -> controller.moveDown();
+                case D,RIGHT -> controller.moveRight();
+            }
+        });
+
         stage.setScene(scene);
         stage.show();
     }

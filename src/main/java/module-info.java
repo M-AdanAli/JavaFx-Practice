@@ -3,6 +3,8 @@ module com.adanali.javafx.javafxpractice {
     requires javafx.fxml;
     requires javafx.graphics;
     requires javafx.base;
+    requires java.desktop;
+    requires javafx.media;
 
 
     exports com.adanali.javafx.javafxpractice.Demo2_Scenebuilder;
